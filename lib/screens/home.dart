@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 setState(() {
                   _bmiResult = _w / (_h * _h);
                   if (_bmiResult > 25) {
-                    _textResult = "Ah Ko Badan besar!";
+                    _textResult = "Ah Ko Gemuk!";
                   } else if (_bmiResult >= 18.5 && _bmiResult <= 25) {
                     _textResult = "Normal? Ini semua batak!";
                   } else if (_bmiResult < 18.5) {
