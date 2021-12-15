@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
               },
               child: Container(
                 child: Text(
-                  "Calculate",
+                  "Kira Skang!",
                   style: TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.bold,
@@ -138,6 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
+
             //? Bar Decoration on the RightSide
             SizedBox(height: 10), LeftBar(barWidth: 40),
             SizedBox(height: 20), LeftBar(barWidth: 70),
